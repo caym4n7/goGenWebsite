@@ -149,18 +149,77 @@ body, html {
 }
 
 
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
+@media (min-width: 1281px) {
+	.flex-item {
+		margin: 15px;
+	}
+	.flex-item h1 {
+		font-size: 50px;
+    	margin-bottom: 10px;
+	}
+	.flex-item p {
+		font-size: 16px;
+	}
+	.pd-txt {
+		padding-top: 120px;
+	}
+	.about-prj {
+		height: 750px;
+	}  
+}
 
-  
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.flex-item {
+		margin: 25px;
+	}
+	.flex-item h1 {
+		font-size: 45px;
+    	margin-bottom: 10px;
+	}
+	.flex-item p {
+		font-size: 20px;
+	}
+	.pd-txt {
+		padding-top: 120px;
+	}
+	.about-prj {
+		height: 950px;
+	}
 }
 
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
-
-  
+	.flex-item {
+		margin: 10px;
+	}
+	.logo {
+		padding-top: 90px;
+	}
+	.flex-item h1 {
+		font-size: 45px;
+    	margin-bottom: 10px;
+	}
+	.flex-item p {
+		font-size: 20px;
+	}
+	.about-prj {
+		height: 1000px;
+	}
+	.flex-item-about {
+		width: 45%;
+		height: 95%;
+	}
+	.flex-item-about p {
+		font-family: 'Barlow Semi Condensed', sans-serif;
+		margin: 65px 25px 0px 25px;
+		font-size: 18px;
+	}
+	.flex-item-about h1 {
+		margin: 200px 60px 120px 60px;
+		font-size: 125px;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -185,6 +244,19 @@ body, html {
 	}
 	.flex-item-about h1 {
 		margin: 150px 120px 120px 120px;
+	}
+	.member {
+		width: 70%;
+	}
+	.flex-item-t {
+		height: 50%;
+	}
+	.flex-item-t h3 {
+	    font-size: 26px;
+	}
+	.flex-item-t p {
+	    font-size: 16px;
+	    margin-top: 5px;
 	}
 }
 
@@ -218,7 +290,7 @@ body, html {
 		margin: 10px;
 	}
 	.flex-item-img {
-		width: 70%;
+		width: 50%;
 	}
 	.flex-item-f h1 {
     	font-size: 18px;	
@@ -234,8 +306,8 @@ body, html {
 		font-size: 100px;
 	}
 	.flex-item-about p {
-		margin: 45px 10px 0px 10px;
-		font-size: 12px;
+		margin: 75px 10px 0px 10px;
+		font-size: 14px;
 		font-family: 'Barlow Semi Condensed', sans-serif;
 	}
 	.about-us {
@@ -245,7 +317,6 @@ body, html {
 		height: 70%;
 		width: 17%;
 		margin: 5px;
-		border: 1px solid black;
 	}
 	.about-us-title {
 	    font-size: 22px;
