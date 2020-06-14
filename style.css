@@ -29,7 +29,6 @@ body, html {
 	text-align: center;
 	height: 50%;
 	width: 40%;
-	border: 2px solid black;
 }
 .pd-txt {
 	padding-top: 110px; 
@@ -88,15 +87,34 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.flex-item-about {
+	width: 40%;
+	height: 80%;
+	margin: 15px;
+}
+.flex-item-about h1 {
+	margin: 120px;
+	text-align: center;
+	font-size: 100px;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	color: white;
+}
+.flex-item-about p {
+	margin: 55px 25px 0px 25px;
+	text-align: left;
+	font-size: 18px;
+	font-family: 'Rajdhani', sans-serif;
+	color: white;
+}
 .about-us {
 	background-color: white;
 	height: 550px;
 }
 .flex-item-t {
 	text-align: center;
-	height: 50%;
+	height: 60%;
 	width: 18%;
-	margin: 0px 5px 5px 5px;
+	margin: 5px;
 }
 .flex-item-t h3 {
 	font-family: 'Barlow Semi Condensed', sans-serif;
@@ -115,6 +133,7 @@ body, html {
 }
 .member {
 	border-radius: 50%;
+	width: 50%;
 }
 .about-us-title {
 	text-align: center;
@@ -130,10 +149,128 @@ body, html {
 }
 
 
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+
+  
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	.flex-item {
+		margin: 25px;
+	}
+	.pd-txt {
+		padding-top: 85px;
+	}
+	.flex-item h1 {
+		font-size: 45px;
+    	margin-bottom: 10px;
+	}
+	.flex-item p {
+		font-size: 15px;
+	}
+	.about-prj {
+		height: 850px;
+	}
+	.flex-item-about p {
+		font-family: 'Barlow Semi Condensed', sans-serif;
+	}
+	.flex-item-about h1 {
+		margin: 150px 120px 120px 120px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.flex-item {
+		height: 50%;
+		width: 40%;
+		margin: 15px;
+	}
+	.pd-txt {
+		padding-top: 100px; 
+	}
+	.flex-item h1 {
+		font-size: 30px;
+    	margin-bottom: 10px;
+	}
+	.flex-item p {
+		font-size: 10px;
+	}
+	.logo {
+		max-width: 100%;
+		max-height: 100%;
+		margin-top: 90px;
+	}
+	.features {
+		height: 700px;
+	}
+	.flex-item-f {
+		height: 65%;
+		width: 25%;
+		margin: 10px;
+	}
+	.flex-item-img {
+		width: 70%;
+	}
+	.flex-item-f h1 {
+    	font-size: 18px;	
+    }
+	.flex-item-f p {
+    	font-size: 14px;
+	}
+	.about-prj {
+		height: 850px;
+	}
+	.flex-item-about h1 {
+		margin: 145px 10px 45px 10px;
+		font-size: 100px;
+	}
+	.flex-item-about p {
+		margin: 45px 10px 0px 10px;
+		font-size: 12px;
+		font-family: 'Barlow Semi Condensed', sans-serif;
+	}
+	.about-us {
+		height: 280px;
+	}
+	.flex-item-t {
+		height: 70%;
+		width: 17%;
+		margin: 5px;
+		border: 1px solid black;
+	}
+	.about-us-title {
+	    font-size: 22px;
+	}
+	.flex-item-t h3 {
+	    font-size: 16px;
+	}
+	.flex-item-t p {
+	    font-size: 10px;
+	    margin-top: 5px;
+	}
+	.member {
+		width: 100%;
+	}
+	.end {
+		height: 50px;
+	}
+}
+
+
 @media (min-width: 320px) and (max-width: 480px) {
 	.flex-item {
 		height: 50%;
 		width: 40%;
+		margin: 10px;
 	}
 	.pd-txt {
 		padding-top: 50px; 
@@ -169,7 +306,16 @@ body, html {
     	font-size: 8px;
 	}
 	.about-prj {
-		height: 100px;
+		height: 400px;
+	}
+	.flex-item-about h1 {
+		margin: 45px 10px 45px 10px;
+		font-size: 55px;
+	}
+	.flex-item-about p {
+		margin: 5px 10px 0px 10px;
+		font-size: 7px;
+		font-family: 'Barlow Semi Condensed', sans-serif;
 	}
 	.about-us {
 		height: 180px;
