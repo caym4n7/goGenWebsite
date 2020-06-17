@@ -1,20 +1,20 @@
 body, html {
-	margin: 0;
-	padding: 0;
 	height: 100%;
-
 }
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 .intro {
-  background-image: url("images/banner.png");
-  height: 100%;
-  background-position: left top;
-  background-repeat: no-repeat;
-  background-size: 65% 100%;
-  position: relative;
+  	background-image: url("images/banner.png");
+  	height: 100%;
+  	width: 100%;
+  	background-position: left top;
+ 	background-repeat: no-repeat;
+  	background-size: 65% 100%;
+  	position: relative;
 }
 .flex-container {
 	display: flex;
@@ -67,6 +67,7 @@ body, html {
     color: #182028;
     font-size: 20px;
     font-weight: 600;
+    margin-bottom: 15px;
 }
 .flex-item-f p {
 	text-align: center;
@@ -81,7 +82,7 @@ body, html {
 }
 .about-prj {
 	background-color: white;
-	height: 600px;
+	height: 650px;
 	background-image: url(images/mt-1763-home-bg1.jpg);
     background-position: top;
     background-repeat: no-repeat;
@@ -93,7 +94,7 @@ body, html {
 	margin: 15px;
 }
 .flex-item-about h1 {
-	margin: 120px;
+	margin: 100px;
 	text-align: center;
 	font-size: 100px;
 	font-family: 'Barlow Semi Condensed', sans-serif;
@@ -102,7 +103,7 @@ body, html {
 .flex-item-about p {
 	margin: 55px 25px 0px 25px;
 	text-align: left;
-	font-size: 18px;
+	font-size: 16px;
 	font-family: 'Rajdhani', sans-serif;
 	color: white;
 }
@@ -145,7 +146,7 @@ body, html {
 }
 .end {
 	background-color: #003dca;
-	height: 100px;
+	height: 60px;
 }
 
 
@@ -154,263 +155,161 @@ body, html {
 		margin: 15px;
 	}
 	.flex-item h1 {
-		font-size: 50px;
+		font-size: 70px;
     	margin-bottom: 10px;
 	}
 	.flex-item p {
 		font-size: 16px;
 	}
-	.pd-txt {
-		padding-top: 120px;
-	}
-	.about-prj {
-		height: 750px;
-	}  
 }
 
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+	.intro {
+	  	background-size: 80% 100%;
+	}
 	.flex-item {
-		margin: 25px;
+		margin: 15px;
 	}
 	.flex-item h1 {
-		font-size: 45px;
+		font-size: 40px;
     	margin-bottom: 10px;
 	}
 	.flex-item p {
-		font-size: 20px;
+		font-size: 14px;
 	}
 	.pd-txt {
-		padding-top: 120px;
+		padding-top: 200px; 
+	}
+	.logo {
+		padding-top: 50px;
+	}
+	.flex-item-f p {
+		font-size: 14px;
 	}
 	.about-prj {
-		height: 950px;
-	}
+		height: 800px;
+	} 
 }
 
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
+	.intro {
+	  	background-size: 90% 100%;
+	}
 	.flex-item {
-		margin: 10px;
-	}
-	.logo {
-		padding-top: 90px;
-	}
-	.flex-item h1 {
-		font-size: 45px;
-    	margin-bottom: 10px;
-	}
-	.flex-item p {
-		font-size: 20px;
-	}
-	.about-prj {
-		height: 1000px;
-	}
-	.flex-item-about {
-		width: 45%;
-		height: 95%;
-	}
-	.flex-item-about p {
-		font-family: 'Barlow Semi Condensed', sans-serif;
-		margin: 65px 25px 0px 25px;
-		font-size: 18px;
-	}
-	.flex-item-about h1 {
-		margin: 200px 60px 120px 60px;
-		font-size: 125px;
-	}
-}
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-	.flex-item {
-		margin: 25px;
-	}
-	.pd-txt {
-		padding-top: 85px;
-	}
-	.flex-item h1 {
-		font-size: 45px;
-    	margin-bottom: 10px;
-	}
-	.flex-item p {
-		font-size: 15px;
-	}
-	.about-prj {
-		height: 850px;
-	}
-	.flex-item-about p {
-		font-family: 'Barlow Semi Condensed', sans-serif;
-	}
-	.flex-item-about h1 {
-		margin: 150px 120px 120px 120px;
-	}
-	.member {
-		width: 70%;
-	}
-	.flex-item-t {
-		height: 50%;
-	}
-	.flex-item-t h3 {
-	    font-size: 26px;
-	}
-	.flex-item-t p {
-	    font-size: 16px;
-	    margin-top: 5px;
-	}
-}
-
-@media (min-width: 481px) and (max-width: 767px) {
-	.flex-item {
-		height: 50%;
-		width: 40%;
 		margin: 15px;
-	}
-	.pd-txt {
-		padding-top: 100px; 
 	}
 	.flex-item h1 {
 		font-size: 30px;
     	margin-bottom: 10px;
 	}
 	.flex-item p {
-		font-size: 10px;
+		font-size: 14px;
+	}
+	.flex-item-f img {
+		height: 50px;
+	}
+	.pd-txt {
+		padding-top: 250px; 
 	}
 	.logo {
-		max-width: 100%;
-		max-height: 100%;
-		margin-top: 90px;
+		padding-top:150px;
 	}
-	.features {
-		height: 700px;
-	}
-	.flex-item-f {
-		height: 65%;
-		width: 25%;
-		margin: 10px;
-	}
-	.flex-item-img {
-		width: 50%;
-	}
-	.flex-item-f h1 {
-    	font-size: 18px;	
-    }
 	.flex-item-f p {
-    	font-size: 14px;
+		font-size: 12px;
 	}
 	.about-prj {
-		height: 850px;
-	}
+		height: 900px;
+	} 
 	.flex-item-about h1 {
-		margin: 145px 10px 45px 10px;
+		margin: 70px;
 		font-size: 100px;
 	}
 	.flex-item-about p {
-		margin: 75px 10px 0px 10px;
+		margin: 55px 25px 0px 25px;
 		font-size: 14px;
-		font-family: 'Barlow Semi Condensed', sans-serif;
-	}
-	.about-us {
-		height: 280px;
-	}
-	.flex-item-t {
-		height: 70%;
-		width: 17%;
-		margin: 5px;
 	}
 	.about-us-title {
-	    font-size: 22px;
+		font-size: 40px;
+	}
+}
+
+/*@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.intro {
+	  	background-size: 100% 100%;
+	}
+	.flex-item {
+		margin: 15px;
+	}
+	.flex-item h1 {
+		font-size: 25px;
+    	margin-bottom: 10px;
+	}
+	.flex-item p {
+		font-size: 12px;
+	}
+	.flex-item-f {
+		margin: 10px;
+	}
+	.flex-item-f img {
+		height: 30px;
+	}
+	.flex-item-f h1 {
+		font-size: 14px;
+	}
+	.flex-item-f p {
+		font-size: 10px;
+	}
+	.pd-txt {
+		padding-top: 300px; 
+	}
+	.logo {
+		padding-top: 250px;
+	}
+	.about-prj {
+		height: 750px;
+	} 
+	.flex-item-about h1 {
+		margin: 250px 10px 100px 10px;
+		font-size: 40px;
+	}
+	.flex-item-about p {
+		margin: 25px 25px 0px 25px;
+		font-size: 10px;
+	}
+	.about-us-title {
+		font-size: 30px;
+	}
+	.flex-item-t {
+		width: 16%;
+		height: 75%;
 	}
 	.flex-item-t h3 {
-	    font-size: 16px;
+	    font-size: 15px;
+	    margin: 20px 0px 5px 0px;
 	}
 	.flex-item-t p {
-	    font-size: 10px;
-	    margin-top: 5px;
+	    font-size: 12px;
+	    line-height: 1;
 	}
 	.member {
+		border-radius: 50%;
 		width: 100%;
 	}
-	.end {
-		height: 50px;
+	.about-us {
+		height: 350px;
 	}
 }
 
 
 @media (min-width: 320px) and (max-width: 480px) {
-	.flex-item {
-		height: 50%;
-		width: 40%;
-		margin: 10px;
-	}
-	.pd-txt {
-		padding-top: 50px; 
-	}
-	.flex-item h1 {
-		font-size: 20px;
-    	margin-bottom: 10px;
-	}
-	.flex-item p {
-		font-size: 8px;
-	}
-	.logo {
-		max-width: 100%;
-		max-height: 100%;
-		margin-top: 60px;
-	}
-	.features {
-		height: 600px;
-	}
-	.flex-item-f {
-		height: 60%;
-		width: 20%;
-		margin: 15px;
-	}
-	.flex-item-img {
-		width: 100%;
-		margin-top: 15px;
-	}
-	.flex-item-f h1 {
-    	font-size: 12px;	
-    }
-	.flex-item-f p {
-    	font-size: 8px;
-	}
 	.about-prj {
-		height: 400px;
-	}
-	.flex-item-about h1 {
-		margin: 45px 10px 45px 10px;
-		font-size: 55px;
-	}
-	.flex-item-about p {
-		margin: 5px 10px 0px 10px;
-		font-size: 7px;
-		font-family: 'Barlow Semi Condensed', sans-serif;
-	}
-	.about-us {
-		height: 180px;
-	}
-	.flex-item-t {
-		height: 100%;
-		width: 10%;
-		margin: 10px;
-	}
-	.about-us-title {
-	    font-size: 14px;
-	}
-	.flex-item-t h3 {
-	    font-size: 10px;
-	}
-	.flex-item-t p {
-	    font-size: 7px;
-	    margin-top: 5px;
-	}
-	.member {
-		width: 100%;
-	}
-	.end {
-		height: 50px;
-	}
-
+		height: 1200px;
+	} 
 }
