@@ -31,7 +31,7 @@ body, html {
 	width: 40%;
 }
 .pd-txt {
-	padding-top: 110px; 
+	padding-top: 160px; 
 }
 .flex-item h1 {
 	text-align: left;
@@ -61,24 +61,28 @@ body, html {
 	height: 50%;
 	width: 20%;
 	margin: 40px;
+	padding: 15px;
+	border-radius: 17px;
+    box-shadow: -1px 9px 18px 0px rgba(75, 81, 91, 0.2);
 }
 .flex-item-f h1 {
 	font-family: 'Barlow Semi Condensed', sans-serif;
     color: #182028;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 .flex-item-f p {
-	text-align: center;
+	text-align: justify;
 	color: #7f7f7f;
-    line-height: 1.8;
-    font-size: 15px;
+    line-height: 1.4;
+    font-size: 16px;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 .flex-item-img {
-	height: 65px;
+	height: 75px;
 	margin-top: 15px;
+	margin-bottom: 20px;
 }
 .about-prj {
 	background-color: white;
@@ -88,177 +92,201 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.flex-item-about {
-	width: 40%;
-	height: 80%;
-	margin: 15px;
+.about-prj-container {
+	display: grid;
+	grid-template-columns: 40% 40%;
+	grid-template-rows: 100%;
+	justify-content: center;
+	grid-gap: 25px;
 }
-.flex-item-about h1 {
-	margin: 100px;
+.about-prj-item h1 {
 	text-align: center;
 	font-size: 100px;
+	color: white;
+	margin-top: 150px;
+	line-height: 1;
 	font-family: 'Barlow Semi Condensed', sans-serif;
-	color: white;
 }
-.flex-item-about p {
-	margin: 55px 25px 0px 25px;
-	text-align: left;
-	font-size: 16px;
-	font-family: 'Rajdhani', sans-serif;
+.about-prj-item p {
+	text-align: justify;
 	color: white;
+	font-size: 20px;
+	font-family: 'Rajdhani', sans-serif;
+	margin-top: 150px;
 }
 .about-us {
 	background-color: white;
-	height: 550px;
-}
-.flex-item-t {
-	text-align: center;
-	height: 60%;
-	width: 18%;
-	margin: 5px;
-}
-.flex-item-t h3 {
-	font-family: 'Barlow Semi Condensed', sans-serif;
-    color: #182028;
-    font-size: 30px;
-    font-weight: 600;
-    margin: 20px 0px 0px 0px;
-}
-.flex-item-t p {
-	text-align: center;
-	color: #7f7f7f;
-    line-height: 1.8;
-    font-size: 15px;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    margin: 0;
-}
-.member {
-	border-radius: 50%;
-	width: 50%;
+	height: 450px;
 }
 .about-us-title {
 	text-align: center;
 	font-family: 'Rubik', sans-serif;
     color: black;
-    font-size: 50px;
-    font-weight: 800;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.members-container {
+	display: grid;
+	grid-template-columns: 250px 250px 250px 250px 250px;
+	grid-template-rows: 100%;
+	justify-content: center;
+	grid-gap: 25px;
+	margin-top: 50px;
+}
+.member-block {
+	text-align: center;
+}
+.member {
+	border-radius: 50%;
+	width: 75%;
+}
+.member-block h3 {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #182028;
+    font-size: 25px;
+    font-weight: 600;
     margin: 20px 0px 0px 0px;
+}
+.member-block p {
+	text-align: center;
+	color: #7f7f7f;
+    line-height: 1.8;
+    font-size: 15px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 .end {
 	background-color: #003dca;
 	height: 60px;
 }
-
-
-@media (min-width: 1281px) {
-	.flex-item {
-		margin: 15px;
-	}
-	.flex-item h1 {
-		font-size: 70px;
-    	margin-bottom: 10px;
-	}
-	.flex-item p {
-		font-size: 16px;
-	}
+.copyright-main {
+	padding-top: 15px;
 }
-
+.copyright-main h3 {
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	font-weight: 300;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-	.intro {
-	  	background-size: 80% 100%;
-	}
-	.flex-item {
-		margin: 15px;
-	}
 	.flex-item h1 {
-		font-size: 40px;
-    	margin-bottom: 10px;
+		font-size: 44px;
 	}
-	.flex-item p {
-		font-size: 14px;
+	.flex-item-f img {
+		height: 55px;
 	}
-	.pd-txt {
-		padding-top: 200px; 
-	}
-	.logo {
-		padding-top: 50px;
+	.flex-item-f h1 {
+		font-size: 18px;
 	}
 	.flex-item-f p {
+		font-size: 12px;
+	}
+	.about-prj-item h1 {
+		font-size: 100px;
+	}
+	.about-prj-item p {
+		font-size: 18px;
+	}
+	.about-us {
+		height: 350px;
+	}
+	.about-us-title {
+		font-size: 35px;
+	}
+	.members-container {
+		grid-template-columns: 180px 180px 180px 180px 180px;
+		grid-gap: 15px;
+	}
+	.member {
+		width: 80%;
+	}
+	.member-block h3 {
+		font-size: 18px;
+	}
+	.member-block p {
 		font-size: 14px;
 	}
-	.about-prj {
-		height: 800px;
-	} 
 }
-
-
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.intro {
-	  	background-size: 90% 100%;
-	}
-	.flex-item {
-		margin: 15px;
+		background-size: 75% 100%;
 	}
 	.flex-item h1 {
-		font-size: 30px;
-    	margin-bottom: 10px;
+		font-size: 32px;
+		margin-bottom: 15px;
 	}
 	.flex-item p {
 		font-size: 14px;
 	}
-	.flex-item-f img {
-		height: 50px;
-	}
-	.pd-txt {
-		padding-top: 250px; 
-	}
 	.logo {
-		padding-top:150px;
+		padding-top: 80px;
+	}
+	.flex-item-f img {
+		height: 55px;
+		margin-bottom: 10px;
+	}
+	.flex-item-f h1 {
+		font-size: 16px;
 	}
 	.flex-item-f p {
 		font-size: 12px;
 	}
-	.about-prj {
-		height: 900px;
-	} 
-	.flex-item-about h1 {
-		margin: 70px;
+	.about-prj-item h1 {
 		font-size: 100px;
 	}
-	.flex-item-about p {
-		margin: 55px 25px 0px 25px;
-		font-size: 14px;
+	.about-prj-item p {
+		font-size: 16px;
+	}
+	.about-us {
+		height: 300px;
 	}
 	.about-us-title {
-		font-size: 40px;
+		font-size: 30px;
+	}
+	.members-container {
+		grid-template-columns: 150px 150px 150px 150px 150px;
+		grid-gap: 0px;
+	}
+	.member {
+		width: 50%;
+	}
+	.member-block h3 {
+		font-size: 16px;
+	}
+	.member-block p {
+		font-size: 12px;
 	}
 }
 
-/*@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-}*/
-
 @media (min-width: 481px) and (max-width: 767px) {
 	.intro {
-	  	background-size: 100% 100%;
-	}
-	.flex-item {
-		margin: 15px;
+		background-size: 100% 80%;
 	}
 	.flex-item h1 {
-		font-size: 25px;
-    	margin-bottom: 10px;
+		font-size: 20px;
+		margin-bottom: 15px;
 	}
 	.flex-item p {
 		font-size: 12px;
 	}
+	.pd-txt {
+		padding-top: 200px;
+	}
+	.logo {
+		padding-top: 180px;
+	}
 	.flex-item-f {
-		margin: 10px;
+		margin: 15px;
+		width: 25%;
 	}
 	.flex-item-f img {
-		height: 30px;
+		height: 45px;
+		margin-bottom: 10px;
 	}
 	.flex-item-f h1 {
 		font-size: 14px;
@@ -266,50 +294,95 @@ body, html {
 	.flex-item-f p {
 		font-size: 10px;
 	}
-	.pd-txt {
-		padding-top: 300px; 
+	.about-prj-item h1 {
+		font-size: 90px;
 	}
-	.logo {
-		padding-top: 250px;
+	.about-prj-item p {
+		font-size: 12px;
 	}
-	.about-prj {
-		height: 750px;
-	} 
-	.flex-item-about h1 {
-		margin: 250px 10px 100px 10px;
-		font-size: 40px;
-	}
-	.flex-item-about p {
-		margin: 25px 25px 0px 25px;
-		font-size: 10px;
+	.about-us {
+		height: 300px;
 	}
 	.about-us-title {
 		font-size: 30px;
 	}
-	.flex-item-t {
-		width: 16%;
-		height: 75%;
-	}
-	.flex-item-t h3 {
-	    font-size: 15px;
-	    margin: 20px 0px 5px 0px;
-	}
-	.flex-item-t p {
-	    font-size: 12px;
-	    line-height: 1;
+	.members-container {
+		grid-template-columns: 95px 95px 95px 95px 95px;
+		grid-gap: 0px;
 	}
 	.member {
-		border-radius: 50%;
-		width: 100%;
+		width: 80%;
 	}
-	.about-us {
-		height: 350px;
+	.member-block h3 {
+		font-size: 10px;
+	}
+	.member-block p {
+		font-size: 8px;
 	}
 }
 
-
 @media (min-width: 320px) and (max-width: 480px) {
+	.intro {
+		background-size: 100% 80%;
+	}
+	.flex-item h1 {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.flex-item p {
+		font-size: 8px;
+	}
+	.pd-txt {
+		padding-top: 120px;
+	}
+	.logo {
+		padding-top: 100px;
+	}
+	.flex-item-f {
+		margin: 5px;
+		width: 30%;
+	}
+	.flex-item-f img {
+		height: 35px;
+		margin-bottom: 10px;
+	}
+	.flex-item-f h1 {
+		font-size: 12px;
+	}
+	.flex-item-f p {
+		font-size: 8px;
+	}
 	.about-prj {
-		height: 1200px;
-	} 
+		height: 550px;
+	}
+	.about-prj-item h1 {
+		font-size: 60px;
+		margin-top: 180px;
+	}
+	.about-prj-item p {
+		font-size: 10px;
+		margin-top: 80px;
+	}
+	.about-us {
+		height: 650px;
+	}
+	.about-us-title {
+		font-size: 15px;
+	}
+	.members-container {
+		grid-template-columns: 140px;
+		grid-template-rows: 120px 120px 120px 120px 120px;
+		grid-gap: 0px;
+		margin-top: 15px;
+	}
+	.member {
+		width: 50%;
+	}
+	.member-block h3 {
+		font-size: 14px;
+		margin-top: 5px;
+	}
+	.member-block p {
+		font-size: 10px;
+	}
 }
